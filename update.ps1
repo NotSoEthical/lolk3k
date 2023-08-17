@@ -1,4 +1,6 @@
-wget 'https://github.com/NotSoEthical/lolk3k/blob/main/4.png?raw=true' -OutFile C:\users\public\wallpaper.png 
+Invoke-WebRequest -URI 'https://github.com/NotSoEthical/lolk3k/blob/main/4.png?raw=true' -OutFile C:\Users\public\wallpaper.png 
+
+
 Function Set-WallPaper {
  
 <#
