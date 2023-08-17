@@ -3,4 +3,3 @@ echo 'Ransomware Simulation was successfully done by Internal EPAM Red Team. Hap
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 $msgBody = "Oops! It seems your computers has been targeted by ransomware attack! Don't worry it is simulation by Internal EPAM Red Team, please check C:\ransomware.png file and report to security team!\n With love :) "
 [System.Windows.MessageBox]::Show($msgBody)
-
